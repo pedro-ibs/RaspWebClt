@@ -1,0 +1,62 @@
+#_body {
+	background: radial-gradient(#2a2a2e, black) no-repeat center fixed;
+	background-size: cover;
+	font-family: 'Share Tech Mono', monospace;
+
+	min-width: 500px;
+}
+
+
+#_bodyIVEL {
+	background: radial-gradient(#2a2a2e, red) no-repeat center fixed;
+	background-size: cover;
+	font-family: 'Share Tech Mono', monospace;
+
+	min-width: 500px;
+}
+
+#bIMG {
+	background: transparent;
+	border: none;
+	margin: 0 auto;	
+}
+
+#MENU_TITLE {
+	background: #2a2a2e;
+	border-radius: 4px;
+	text-align: center;
+	width: 100%;
+	align-self: center;
+	block-size: auto;
+	text-transform: capitalize;
+}
+
+
+#MENU_TITLEivel {
+	border-radius: 4px;
+	text-align: center;
+	width: 100%;
+	align-self: center;
+	block-size: auto;
+	text-transform: capitalize;
+	color: red;
+	font-weight: bold;
+}
+
+
+
+#BORD{
+	border: 1px solid;
+	border-radius: 4px;
+}
+
+p{
+	font-size: 10pt;
+}
+
+#TREM{
+	font-size: 9pt;
+	font-weight: bold;
+	color: red;
+	text-align: justify;
+}
