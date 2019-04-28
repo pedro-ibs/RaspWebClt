@@ -60,9 +60,8 @@ sudo reboot - h now
 ```
 ---
 
-Nesse ponto de o Servidor  está pronto, para confirmar acesse o ip de sua raspberry  com um navegador você deve ver a página do apache. Eu utilizei o visual Code para desenvolver a página, para isso usei a extensão [SSJ FS](https://github.com/SchoofsKelvin/vscode-sshfs) que por via ssh podemos editar os arquivos.
+Nesse ponto de o Servidor  está pronto, para confirmar acesse o ip de sua raspberry  com um navegador você deve ver a página do apache. Eu utilizei o visual Code para desenvolver a página, para isso usei a extensão [SSJ FS](https://github.com/SchoofsKelvin/vscode-sshfs) que por via ssh podemos editar os arquivos. Para baixar os arquivos do projeto basta clonar o repositório:
 
-para baixar os arquivos do projeto basta clonar o repositório:
 ```
 cd /var/www/html/
 sudo mkdir RaspWebClt
