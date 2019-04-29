@@ -7,9 +7,14 @@ Com o html, css, javascript e php junto ao [wiringpi](http://wiringpi.com/) dese
 
 
 ### Raspberry utilizada 
-No desenvolvimento eu utilizei a Raspberry Pi modelo B+, no entanto há compatibilidade com todos o outros modelos. para restar utilizei o seguinte circuito:
+No desenvolvimento eu utilizei a Raspberry Pi modelo B+, no entanto há compatibilidade com todos o outros modelos. Para restar utilizei o seguinte circuito, utilize o comando gpio para conferir as ligações:
+
+```
+gpio readall
+```
 
 ![Circuito utilizado](https://github.com/pedro-ibs/RaspWebClt/blob/master/Screenshot_20190428_231149.png)
+
 
 
 ##### importante, esse projeto não abrange aspectos de segurança do servidor desse modo se necessário realize as configurações adequadas  de acordo com suas necessidades
