@@ -73,11 +73,11 @@ mv RaspWebClt/* .
 sudo rm -r RaspWebClt
 ```
 
-No meu caso o acesso da página web é “http://10.42.0.119/my/index.html”  isso pode mudar conforme o ip e o directŕio que decidiu colocar os arquivos (sempre abaixo de  /var/www/html/).
+No meu caso o acesso da página web é “http://10.42.0.119/my/index.html”  isso pode mudar conforme o ip e o directotio que decidiu colocar os arquivos (sempre abaixo de  /var/www/html/).
 
 
 # Sobre o Projeto
-Basicamente uso o método get do javascript para informar ao php qual dos botões foi pressionado juntamente com o setor controlado, e com o comando [shell_exec](https://www.php.net/manual/pt_BR/function.shell-exec.php)  controlo os pinos da raspberry juntamente ao  [wiringpi](http://wiringpi.com/) .
+Basicamente uso o método get do javascript para informar ao php qual dos botões foram pressionado juntamente com o setor controlado, e com o comando [shell_exec](https://www.php.net/manual/pt_BR/function.shell-exec.php)  controlo os pinos da raspberry juntamente ao [wiringpi](http://wiringpi.com/) .
 
 
 ##### Nos arquivos não há imagens mas elas podem ser facilmente adicionadas na pasta ./img e com o arquivo ./php/matrizClt.inc devidamente atualizado( se necessário, pois algumas imagens não se encontram nesse arquivo)
