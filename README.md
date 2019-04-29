@@ -6,6 +6,11 @@ O projeto a seguir, apresenta a 1ª etapa de um trabalho acadêmico da disciplin
 Com o html, css, javascript e php junto ao [wiringpi](http://wiringpi.com/) desenvolvi uma pagina web para controlar os GPIOs de uma Raspberry Pi, onde onde uso o método get do javascript para informar ao php qual dos botões foram pressionado juntamente com o setor controlado, e com o comando [shell_exec](https://www.php.net/manual/pt_BR/function.shell-exec.php) controlo os pinos da raspberry juntamente ao [wiringpi](http://wiringpi.com/) excutando on comando shell como.
 
 
+### Raspberry utilizada 
+No desenvolvimento eu utilizei a Raspberry Pi modelo B+, no entanto há compatibilidade com todos o outros modelos. para restar utilizei o seguinte circuito:
+
+![Circuito utilizado](https://github.com/pedro-ibs/RaspWebClt/blob/master/Screenshot_20190428_231149.png)
+
 
 ##### importante, esse projeto não abrange aspectos de segurança do servidor desse modo se necessário realize as configurações adequadas  de acordo com suas necessidades
 
