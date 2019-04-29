@@ -1,9 +1,15 @@
 # Controlador Web Para Raspberry pi
 
 ## Resumo
-Esse projeto é a primeira parte de um trabalho da matéria de  Linguagem de Programação 1 do segundo semestre do curso de Análise e Desenvolvimento de Sistemas do Instituto Federal de Ciência e Tecnologia onde estudo. No entanto decidi fugir um pouco do tema, Neste projeto construi um sistema que pode controlar as entradas e saídas do computador embarcado Raspberry Pi contemplando recursos básicos neste quesito.
+O projeto a seguir, apresenta a 1ª etapa de um trabalho acadêmico da disciplina de Linguagem de Programação 1 (LP1) ofertada no 2º módulo do curso de Análise e Desenvolvimento de Sistemas do Instituto Federal de Ciência e Tecnologia (IFSP – Campus Guarulhos). Para o projeto desta disciplina, decidi fugir um pouco do tema do cenário comum da disciplina e desenvolver algo mais aplicado a sistemas embarcados, com o desenvolvimento de um servidor web para controle dos GPIOs de uma Raspberry Pi.
 
-##### importante salientar que esse projeto não abrange aspectos de segurança do servidor pois se trata de um estudo focado em html, css, javascript e php. Desse modo se necessário realize as configurações adequadas  de acordo com suas necessidades
+Com o html, css, javascript e php junto ao [wiringpi](http://wiringpi.com/) desenvolvi uma pagina web para controlar os GPIOs de uma Raspberry Pi, onde onde uso o método get do javascript para informar ao php qual dos botões foram pressionado juntamente com o setor controlado, e com o comando [shell_exec](https://www.php.net/manual/pt_BR/function.shell-exec.php) controlo os pinos da raspberry juntamente ao [wiringpi](http://wiringpi.com/) excutando on comando shell como.
+
+
+
+##### importante, esse projeto não abrange aspectos de segurança do servidor desse modo se necessário realize as configurações adequadas  de acordo com suas necessidades
+
+---
 
 ### Preparando ambiente.
 
@@ -59,7 +65,7 @@ sudo reboot - h now
 
 Nesse ponto de o Servidor está pronto, para confirmar acesse o ip de sua raspberry  com um navegador, e então você deve ver uma página do apache.
 
-Eu utilizei o Visual Code para desenvolver o projeto, para isso usei a extensão chamada [SSJ FS](https://github.com/SchoofsKelvin/vscode-sshfs) onde podemos editar os arquivos vias ssh através do Visual Code. 
+Eu utilizei o Visual Code para desenvolver o projeto, para isso usei a extensão chamada [SSJ FS](https://github.com/SchoofsKelvin/vscode-sshfs) onde podemos editar os arquivos vias ssh através do Visual Code.
 
 Para baixar os arquivos do projeto basta clonar o repositório em /var/www/html:
 
@@ -75,9 +81,6 @@ sudo rm -r RaspWebClt
 
 No meu caso o acesso da página web é “http://10.42.0.119/my/index.html”  isso pode mudar conforme o ip e o directotio que decidiu colocar os arquivos (sempre abaixo de  /var/www/html/).
 
-
-# Sobre o Projeto
-Basicamente uso o método get do javascript para informar ao php qual dos botões foram pressionado juntamente com o setor controlado, e com o comando [shell_exec](https://www.php.net/manual/pt_BR/function.shell-exec.php)  controlo os pinos da raspberry juntamente ao [wiringpi](http://wiringpi.com/) .
-
-
 ##### Nos arquivos não há imagens mas elas podem ser facilmente adicionadas na pasta ./img e com o arquivo ./php/matrizClt.inc devidamente atualizado( se necessário, pois algumas imagens não se encontram nesse arquivo)
+
+
